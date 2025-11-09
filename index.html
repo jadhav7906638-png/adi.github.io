@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome - आपका नाम</title>
+    
+    <meta http-equiv="refresh" content="2; url=dashboard.html">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: radial-gradient(circle at center, #8a0404 0%, #4f0303 100%);
+            color: #333;
+            text-align: center;
+        }
+        .welcome-message {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff; /* Welcome Text Color */
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-message">
+        <h1>welcome to webside</h1>
+        <p>You have been successfully logged in</p>
+        <p>I hope your paper goes well....</p>
+    </div>
+
+    <script>
+        // setTimeout फंक्शन 2000 मिलीसेकंड (2 सेकंड) के बाद कोड को चलाएगा।
+        // window.location.href आपको 'dashboard.html' पेज पर ले जाएगा।
+        setTimeout(function() {
+            window.location.href = '3.html'; 
+        }, 2000); // 2000 मिलीसेकंड = 2 सेकंड
+    </script>
+</body>
+</html>
